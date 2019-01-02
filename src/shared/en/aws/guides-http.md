@@ -2,7 +2,7 @@
 
 ## Create full-featured web applications composed of fast, tiny HTTP functions
 
-> `.arc` abstracts API Gateway configuration and provisioning, while `@architect/functions` (optionally) adds a very light but powerful API shim to Lambda for working with HTTP
+> `.arc` abstracts API Gateway configuration and provisioning.
 
 Given the following example `.arc` file:
 
@@ -88,7 +88,7 @@ module.exports = async function http(req) {
 
 # Helpers for your functions
 
-HTTP functions come with `@architect/functions` and `@architect/data` installed. These have convenient helpers for working with the unique characteristics of API Gateway and DynamoDB, respectively.
+The `@architect/functions` and `@architect/data` modules have convenient helpers for working with AWS API Gateway and DynamoDB, respectively.
 
 ```javascript
 // opt into architect functions and data conveniences
